@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aion2-menu"
+version = "0.6.3"
+description = "Aion 2 cheat menu — overlay, aimbot, ESP, teleport, and inventory tools."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "aion2-menu contributors" }]
+license = { text = "MIT" }
+
+[project.scripts]
+aion2-menu = "aion2_menu.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
