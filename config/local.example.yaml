@@ -1,0 +1,8 @@
+# Copy to config/local.yaml and edit
+profile: dev
+game:
+  binary: aion2_test.bin
+  region: na
+offsets:
+  path: offsets/local_offsets.json
+  build: "dev"
