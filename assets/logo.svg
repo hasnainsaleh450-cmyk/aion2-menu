@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0a0e1a"/>
+  
+  <!-- Outer fractured hexagon - main body -->
+  <polygon points="128,24 200,60 200,132 128,168 56,132 56,60" fill="none" stroke="#c8d6e5" stroke-width="3" stroke-linejoin="miter"/>
+  
+  <!-- Offset fractured hexagon (glitch layer) -->
+  <polygon points="134,30 206,66 206,138 134,174 62,138 62,66" fill="none" stroke="#00e5ff" stroke-width="1.5" opacity="0.4" stroke-linejoin="miter"/>
+  
+  <!-- Fracture lines - cracks splitting the hexagon -->
+  <line x1="128" y1="24" x2="128" y2="60" stroke="#c8d6e5" stroke-width="2"/>
+  <line x1="200" y1="60" x2="164" y2="96" stroke="#c8d6e5" stroke-width="2"/>
+  <line x1="164" y1="96" x2="200" y2="132" stroke="#c8d6e5" stroke-width="2"/>
+  <line x1="56" y1="60" x2="92" y2="96" stroke="#c8d6e5" stroke-width="2"/>
+  <line x1="92" y1="96" x2="56" y2="132" stroke="#c8d6e5" stroke-width="2"/>
+  
+  <!-- Glowing circuit-line crack through the center -->
+  <polyline points="76,80 104,80 104,108 128,108 128,136 152,136 152,108 176,108 176,80" fill="none" stroke="#ff3d71" stroke-width="3" stroke-linejoin="miter"/>
+  
+  <!-- Circuit glow overlay -->
+  <polyline points="76,80 104,80 104,108 128,108 128,136 152,136 152,108 176,108 176,80" fill="none" stroke="#ff3d71" stroke-width="6" opacity="0.25" stroke-linejoin="miter"/>
+  
+  <!-- Node dots on circuit -->
+  <circle cx="104" cy="80" r="4" fill="#00e5ff"/>
+  <circle cx="152" cy="80" r="4" fill="#00e5ff"/>
+  <circle cx="128" cy="136" r="5" fill="#ff3d71"/>
+  
+  <!-- Inner secondary hexagon (low-poly accent) -->
+  <polygon points="128,56 168,78 168,120 128,142 88,120 88,78" fill="none" stroke="#00e5ff" stroke-width="1" opacity="0.5" stroke-linejoin="miter"/>
+  
+  <!-- Small glitch offset marks -->
+  <line x1="186" y1="48" x2="196" y2="44" stroke="#ff3d71" stroke-width="2" opacity="0.7"/>
+  <line x1="60" y1="48" x2="50" y2="44" stroke="#00e5ff" stroke-width="2" opacity="0.7"/>
+  <line x1="186" y1="148" x2="196" y2="152" stroke="#00e5ff" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Corner accent runes - small triangles -->
+  <polygon points="128,14 134,22 122,22" fill="#00e5ff" opacity="0.8"/>
+  <polygon points="128,150 134,158 122,158" fill="#ff3d71" opacity="0.8"/>
+  
+  <!-- Bottom glitch bar -->
+  <rect x="88" y="176" width="80" height="3" fill="#00e5ff" opacity="0.6"/>
+  <rect x="96" y="183" width="64" height="2" fill="#ff3d71" opacity="0.4"/>
+  <rect x="80" y="170" width="96" height="1.5" fill="#c8d6e5" opacity="0.3"/>
+  
+  <!-- Tiny wordmark -->
+  <text x="128" y="210" text-anchor="middle" font-family="monospace" font-size="11" fill="#c8d6e5" letter-spacing="4" opacity="0.7">AION 2</text>
+  <text x="128" y="224" text-anchor="middle" font-family="monospace" font-size="8" fill="#00e5ff" letter-spacing="3" opacity="0.5">MENU</text>
+</svg>
