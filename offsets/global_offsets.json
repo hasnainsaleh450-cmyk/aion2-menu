@@ -1,0 +1,16 @@
+{
+  "1.9.4.7": {
+    "local_pos": 18583417,
+    "cam_pos": 18583432,
+    "view_matrix": 18610112,
+    "entity_list": 18642000,
+    "player_state": 18584001
+  },
+  "default": {
+    "local_pos": 0,
+    "cam_pos": 0,
+    "view_matrix": 0,
+    "entity_list": 0,
+    "player_state": 0
+  }
+}
