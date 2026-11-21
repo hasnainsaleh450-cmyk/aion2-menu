@@ -1,0 +1,14 @@
+profile: default
+game:
+  binary: aion2.bin
+  region: eu
+offsets:
+  path: offsets/global_offsets.json
+  build: "1.9.4.7"
+overlay:
+  opacity: 0.85
+  hotkeys:
+    aimbot: F1
+    esp: F2
+    teleport: F3
+    inventory_peek: F4
